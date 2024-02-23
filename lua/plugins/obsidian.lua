@@ -20,10 +20,10 @@ return {
       workspaces = {
         {
           name = "personal",
-          path = "d:/dev/devlog",
+          path = "$HOME/DevLog",
           overrides = {
             templates = {
-              subdir = "templates",
+              subdir = "Templates",
               date_format = "%Y-%m-%d-%a",
               time_format = "%H:%M",
             },

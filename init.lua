@@ -11,7 +11,7 @@ if not vim.loop.fs_stat(lazypath) then
   })
 end
 vim.opt.rtp:prepend(lazypath)
-vim.opt_local.conceallevel = 2
+vim.opt.conceallevel = 2
 
 require("lazy").setup("plugins")
 require("lualine").setup {
